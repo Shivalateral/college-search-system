@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>College Search System</h1>
+    <form id="searchForm">
+        <label for="name">College Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter college name">
+        
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" placeholder="Enter location">
+        
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+            <option value="">Select type</option>
+            <option value="public">Public</option>
+            <option value="private">Private</option>
+        </select>
+
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
